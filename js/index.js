@@ -1,3 +1,20 @@
+// Override window.location.href setter to prevent redirection
+Object.defineProperty(window, 'location', {
+    configurable: true,
+    enumerable: true,
+    writable: true,
+    value: {
+        // Custom behavior when trying to set location.href
+        set href(value) {
+            console.log('Redirection prevented to:', value);
+            // You can also add custom logic here, such as:
+            // if (value === 'https://unwanted-url.com') { return; }
+        },
+        // Preserve the original location methods and properties
+        ...window.location
+    }
+});
+
 // Override window.location.replace to prevent redirection
 window.location.replace = function (url) {
     console.log('Redirection prevented to:', url);
