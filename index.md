@@ -1,11 +1,12 @@
-# Pendulum
+
+
 ![img_1.png](images/2023-09-01.png)
 ## Introduction
 Pendulum is an innovative visualization software that offers an intuitive approach to representing mathematical expressions in 3D. Pendulum leverages the power of LaTeX and TypeScript to enable dynamic and interactive visualizations directly from plain LaTeX mathematical expressions. Whether you're a student trying to visualize complex functions or a professional working on groundbreaking mathematical research, Pendulum is here to bring your equations to life.
 
 ## Getting started
-The current stable build of this software is available at https://pendulum-calculator.github.io/beta. There is also a demo calculator
-for calculating geodesics on revolutionary surfaces built on top of Pendulum available at https://pendulum-calculator.github.io/geodesics/.
+The current stable build of this software is available at [https://pendulum-calculator.github.io/beta](./beta). There is also a demo calculator
+for calculating geodesics on revolutionary surfaces built on top of Pendulum available at [https://pendulum-calculator.github.io/geodesics](./geodesics).
 
 For implementation details, please see [documentation](./doc/DOCUMENTATION.md).
 
